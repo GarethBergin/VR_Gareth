@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7158939820538580199}
   - component: {fileID: 4508112324487431145}
   - component: {fileID: 187823741087007474}
-  - component: {fileID: 4146892148195658147}
   - component: {fileID: 6848021374384681449}
   m_Layer: 0
   m_Name: Patty_low.002
@@ -132,7 +131,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 17
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -266,28 +265,6 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!64 &4146892148195658147
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8205682749686476490}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8515345712030740613, guid: 541e52051ba9d2646a41c83cac5de7af, type: 3}
 --- !u!65 &6848021374384681449
 BoxCollider:
   m_ObjectHideFlags: 0
