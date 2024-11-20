@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4291674529401085937}
   m_Layer: 0
   m_Name: Cheese_low
-  m_TagString: Untagged
+  m_TagString: burger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.033355713, z: -0, w: 0.9994436}
   m_LocalPosition: {x: 6.879, y: -6.988142, z: -0.335}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.094, y: 0.094, z: 0.094}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -132,7 +132,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2048
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1

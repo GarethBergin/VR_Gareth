@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7598335656482749353}
   m_Layer: 0
   m_Name: topbun_low
-  m_TagString: Untagged
+  m_TagString: burger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.22, y: -7.2155933, z: -0.17}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -132,7 +132,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4096
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
