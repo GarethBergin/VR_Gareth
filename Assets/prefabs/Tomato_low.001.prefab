@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5428760902709675689}
   m_Layer: 0
   m_Name: Tomato_low.001
-  m_TagString: burger
+  m_TagString: destroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

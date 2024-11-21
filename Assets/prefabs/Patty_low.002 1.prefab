@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 9121786303216073659}
   m_Layer: 0
   m_Name: Patty_low.002 1
-  m_TagString: burger
+  m_TagString: destroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

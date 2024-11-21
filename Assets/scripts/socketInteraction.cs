@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class SocketInteraction : MonoBehaviour
 {
+    public AudioSource socketAudioSource;
+    public AudioClip soundEffect;
     public GameObject newPrefab; // The prefab to instantiate
     public float delay = 2.0f;   // Time in seconds before replacing the object
+    
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Interactable")) // Ensure the object has the correct tag
         {
             StartCoroutine(ReplaceObject(other.gameObject));
+            socketAudioSource.PlayOneShot(soundEffect);
         }
         else if (other.CompareTag("burger")) // Ensure the object has the correct tag
         {
@@ -29,4 +33,6 @@ public class SocketInteraction : MonoBehaviour
         // Destroy the old object
         Destroy(currentObject);
     }
+
+    
 }

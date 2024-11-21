@@ -6,19 +6,23 @@ using UnityEngine;
 
 public class destroy : MonoBehaviour
 {
-    private void Start(){
-        
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        // Check if the collided object has a specific tag
-        if (collision.gameObject.CompareTag("Target"))
-        {
-            // Destroy this object
-            Destroy(gameObject);
 
-            // Optionally, destroy the other object
-            // Destroy(collision.gameObject);
+  // Set the tag to look for in the Inspector
+    public string tagToDestroy = "burger"; // Example tag
+    public AudioSource socketAudioSource;
+    public AudioClip soundEffect;
+
+    // This method will be called when another collider enters the trigger zone
+    private void OnTriggerEnter(Collider other)
+    {
+        // Check if the object that collided has the specific tag
+        if (other.CompareTag(tagToDestroy))
+        {
+            // Destroy the object
+            Destroy(other.gameObject);
+            socketAudioSource.PlayOneShot(soundEffect);
         }
     }
+
+    
 }
