@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public class destroy : MonoBehaviour
+public class destroy2 : MonoBehaviour
 {
     private void Start(){
         

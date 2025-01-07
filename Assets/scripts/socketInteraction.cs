@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SocketInteraction : MonoBehaviour
+public class SocketInteraction2 : MonoBehaviour
 {
     public GameObject newPrefab; // The prefab to instantiate
     public float delay = 2.0f;   // Time in seconds before replacing the object
